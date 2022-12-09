@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css'
 import BackgroundImage from './../BackgroundImage'
 import Cards from './../Cards';
+import Footer from './../Footer';
 
 function Home()
 {
@@ -9,6 +10,7 @@ function Home()
         <>
         <BackgroundImage/>
         <Cards/>
+        <Footer/>
         </>
     )
 }

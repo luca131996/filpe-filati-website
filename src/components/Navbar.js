@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import { Button } from "./Button";
 import './Navbar.css';
 import './Button.css';
+import logo from "../images/logo.png"
 
 
 function Navbar()
@@ -34,7 +35,7 @@ window.addEventListener('resize', showButton);
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                        Filpe Filati Cucirini
+                        <img className="navbar__img" src={logo} alt="Yarn Image"/>
                         <i className="fab ta-typo3"/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -57,12 +58,12 @@ window.addEventListener('resize', showButton);
                         </Link>
                     </li>
                     <li>
-                        <Link to='/contatti' className='nav-links-mobile'onClick={closeMobileMenu}>
-                            Contatti
+                        <Link to='/dovesiamo' className='nav-links-mobile'onClick={closeMobileMenu}>
+                            Vieni a Trovarci
                         </Link>
                     </li>
                     </ul>
-                    {button && <Button buttonStyle={'btn--outline'}>CONTATTI</Button>}
+                    {button && <Button buttonStyle={'btn--outline'}>VIENI A TROVARCI</Button>}
                 </div>
             </nav>
         </>
