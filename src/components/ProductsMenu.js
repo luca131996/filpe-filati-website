@@ -5,7 +5,6 @@ import './ProductsMenu.css';
 const ProductsMenu = ({ products }) => {
   return (
     <div className="products-menu-card">
-      <h2>Prodotti</h2>
       <ul>
         {products.map((product) => (
           <li key={product.id}>
