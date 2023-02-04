@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import OurStory from '../OurStory';
 
 export default function Storia() {
   return (
   <>
-  <h1 className='storia'>LA NOSTRA STORIA</h1>
+  <OurStory/>
   <Footer/>
   </>
   );
