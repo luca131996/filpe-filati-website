@@ -3,12 +3,11 @@ import './OurStory.css'
     return (
         <div className='our-story'>
             <ol className='history-list'>
-                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Nel 1978, con il boom dell'industria tessile Valgandinese in pieno corso, la Filpe Filati viene fondata a Leffe nel garage della famiglia Campana, e si offre come rifornitore di filato cucirino per le confezioni locali.</li>
-                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Nel corso degli anni '90 i fratelli Campana, ora amministratori dell'azienda, aprono un nuovo stabilimento in Via Locatelli, in modo da supportare la costante crescita produttiva e di parco clienti.</li>
-                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Negli anni duemila la Filpe espande il suo mercato, proponendosi come affidabile fornitore su tutto il mercato nazionale. Viene quindi ampliato il fronte di approvvigionamenti, viene costruita un'efficace rete di collaboratori sparsi sul territorio italiano e viene completamente rinnovato l'impianto produttivo.</li>
-                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Nel 2005 la costante crescita dell'azienda, con l'esigenza di un nuovo magazzino generale, spinge i fratelli Campana ad un secondo trasferimento, portando la Filpe nella sua attuale sede di via Fornaci.</li>
-                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Negli ultimi anni il parco macchine ha subito un nuovo rinnovamento, con l'introduzione di roccatrici ad avvolgimento costante di ultima generazione, che insieme all'installazione di un sistema di lubrificazione 
-                elettronica a pompa volumetrica e all'implementazione di un sistema di controllo qualità a mezzo di stribbie ottiche ha rivoluzionato le capacità produttive della Filpe Filati.</li>
+                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Nel 1978, durante il boom dell'industria tessile Valgandinese, la Filpe Filati venne fondata a Leffe dalla famiglia Campana, con l'obiettivo di proporsi come fornitore di filato cucirino per le confezioni locali.</li>
+                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Nel corso degli anni '90 i fratelli Campana, diventati amministratori dell'azienda, aprono un nuovo stabilimento in Via Locatelli per supportare la crescente produzione e clientela.</li>
+                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Negli anni duemila, la Filpe espande il proprio mercato, diventando un affidabile fornitore in tutto il territorio italiano grazie all'ampliamento della rete di fornitori nazionali e internazionali, alla costruzione di una solida rete di collaboratori e al completo rinnovamento dell'impianto produttivo.</li>
+                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Nel 2005, la crescita dell'azienda richiede un nuovo magazzino generale e i fratelli Campana trasferiscono nuovamente la Filpe nella sua attuale sede in Via Fornaci.</li>
+                <li style={{marginBottom: '1em', margin: '0em 2em 1em'}}>Negli ultimi anni, il parco macchine è stato rinnovato con l'introduzione di roccatrici ad avvolgimento costante di ultima generazione con l'implementazione di un sistema di lubrificazione elettronica a pompa volumetrica e con l'utilizzo di un nuovo sistema di controllo qualità a mezzo di stribbie ottiche, che hanno rivoluzionato le capacità produttive dell'azienda.</li>
 
                 
             </ol>
