@@ -18,13 +18,13 @@ function Cards()
                     src = {spun_img}
                     text = "Cucirino 100% Poliestere"                    
                     label = "SPUN"
-                    path= '/prodotti'
+                    path= '/prodotti/1'
                     />
                     <CardItem
                     src = {core_img}
                     text = "Cucirino Poly Poly"
                     label = "CORE"
-                    path= '/prodotti'
+                    path= '/prodotti/3'
                     />
                     <CardItem
                     src = {fast_img}

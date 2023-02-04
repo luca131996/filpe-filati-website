@@ -20,6 +20,7 @@ export const Mailer = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
+      <label style={{fontSize: '25px'}}>Mettiti in Contatto!</label>
       <label>Nome</label>
       <input type="text" name="user_name" />
       <label>Email</label>

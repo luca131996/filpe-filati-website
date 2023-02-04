@@ -1,0 +1,43 @@
+.products-menu-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  object-fit: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.30);
+  top: 0%;
+  width: 30%;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+ }
+
+
+ .products-menu-card h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+
+.products-menu-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.products-menu-card li {
+  margin: 20px 0;
+  font-size: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.products-menu-card a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  align-items: center;
+}
