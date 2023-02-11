@@ -1,20 +1,19 @@
 .map-container {
-    padding: 4rem 1rem 1rem 4rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: columns;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50vh;
+    margin: 50px;
+    margin-left: 50px;
   }
 
 .form-container {
-  padding: 4rem 1rem 1rem 4rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: columns;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 30%;
   }
 
 .title-container {
