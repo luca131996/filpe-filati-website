@@ -6,6 +6,7 @@ import Qualità from './components/pages/Qualità';
 import Storia from './components/pages/Storia';
 import DoveSiamo from './components/pages/DoveSiamo';
 import Spun from './components/products/spun';
+import Start from './components/products/start';
 import Core from './components/products/core';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/storia' element={<Storia/>}/>
           <Route path='/dovesiamo' element={<DoveSiamo/>}/>
           <Route path='/prodotti/1' element={<Spun/>}/>
+          <Route path='/prodotti/2' element={<Start/>}/>
           <Route path='/prodotti/3' element={<Core/>}/>
         </Routes>
     </Router>
